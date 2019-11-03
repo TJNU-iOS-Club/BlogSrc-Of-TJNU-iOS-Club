@@ -432,11 +432,11 @@
           masonry: {
             gutter: 20
           },
-          filter: $section.find('.default-activity-filter').text()
+          filter: $section.find('.default-project-filter').text()
         });
 
         // Filter items when filter link is clicked.
-        $section.find('.activity-filters a').click(function() {
+        $section.find('.project-filters a').click(function() {
           let selector = $(this).attr('data-filter');
           $container.isotope({filter: selector});
           $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
@@ -446,8 +446,8 @@
         // If window hash is set, scroll to hash.
         // Placing this within `imagesLoaded` prevents scrolling to the wrong location due to dynamic image loading
         // affecting page layout and position of the target anchor ID.
-        // Note: If there are multiple activity widgets on a page, ideally only perform this once after images
-        // from *all* activity widgets have finished loading.
+        // Note: If there are multiple project widgets on a page, ideally only perform this once after images
+        // from *all* project widgets have finished loading.
         if (window.location.hash) {
           scrollToAnchor();
         }

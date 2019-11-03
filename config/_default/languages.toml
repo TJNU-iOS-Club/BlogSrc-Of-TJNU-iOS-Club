@@ -38,3 +38,18 @@
   name = "联系我们"
   url = "#contact"
   weight = 50
+
+[[zh.menu.main]]
+  name = "历史"
+  url = "#history"
+  weight = 25
+
+[[zh.menu.main]]
+  name = "活动"
+  url = "#activities"
+  weight = 35
+
+[[zh.menu.main]]
+  name = "链接"
+  url = "#links"
+  weight = 65

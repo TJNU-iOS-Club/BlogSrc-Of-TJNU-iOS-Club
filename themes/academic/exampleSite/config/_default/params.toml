@@ -98,7 +98,7 @@ zoom = 15
 
 # Load CSS and JS plugins
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
-#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
+#   E.g. To load `/assets/js/addlinks.js`, set `plugins_js = ["custom"]`.
 plugins_css = []
 plugins_js  = []
 
@@ -134,7 +134,7 @@ sharing = true
   # Citation style ("apa" or "mla")
   citation_style = "apa"
 
-# Configuration of activity pages.
+# Configuration of project pages.
 [projects]
   # Views for associated content.
   #   1: List

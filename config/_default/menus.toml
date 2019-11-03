@@ -36,6 +36,10 @@
   name = "Activities"
   url = "#activities"
   weight = 35
+[[main]]
+  name = "Links"
+  url = "#links"
+  weight = 65
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]

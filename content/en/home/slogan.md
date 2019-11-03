@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 25  # Order that this section will appear.
 
-title = "Surround iOS Club with dreams、peers、believers and thinkers!"
+title = ""
 subtitle = ""
 
 [design]
@@ -47,4 +47,10 @@ subtitle = ""
  css_class = ""
 +++
 
+<div style="font-size: 180%;
+        font-weight: bold;
+        alignment: center;
+        ">
+    Surround iOS Club with dreams、peers、believers and thinkers!
 
+</div>

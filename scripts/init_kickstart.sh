@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# WARNING: this will reset the activity to the Kickstart template!
+# WARNING: this will reset the project to the Kickstart template!
 
 # Update Academic
 cd ..
@@ -33,6 +33,6 @@ rsync -av ../themes/academic/exampleSite/content/talk/_index.md ../content/talk/
 sed -i '' -e 's/active = true/active = false/' ../content/home/hero.md
 
 # Manual Steps:
-# - content/home/activities.md: Re-comment out activity filters
+# - content/home/activities.md: Re-comment out project filters
 # - content/home/slogan.md: Re-modify content & set gradient background instead of image
 # - content/home/hero.md: Clear `hero_media` value & set gradient background instead of image

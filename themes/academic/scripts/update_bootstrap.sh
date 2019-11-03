@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script to copy Bootstrap files into activity after running `npm install` to download Bootstrap.
+# Script to copy Bootstrap files into project after running `npm install` to download Bootstrap.
 
 ASSETS_JS_DIR="assets/js/vendor/"
 ASSETS_SCSS_DIR="assets/sass/vendor/"

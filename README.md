@@ -1,6 +1,6 @@
-# 天津师范大学 C422 创新创业工作室主页
+# 天津师范大学 iOS Club 主页
 
-这里是天津师范大学，创新创业工作室[官网](https://c422.github.io)的工程仓库页面。本项目使用 [hugo-academic](https://github.com/gcushen/hugo-academic) 作为项目模版，对外观进行了轻微的自定义。此外，本仓库启用了 [Travis-CI 流水线](https://travis-ci.org/c422/c422-src/builds)，，当 master 分支更新后，可以自动部署，无需手动编译。
+这里是天津师范大学，iOS[官网](https://TJNU-iOS-Club.github.io)的工程仓库页面。本项目使用 [hugo-academic](https://github.com/gcushen/hugo-academic) 作为项目模版，对外观进行了轻微的自定义。此外，本仓库启用了 [Travis-CI 流水线](https://travis-ci.org/c422/c422-src/builds)，，当 master 分支更新后，可以自动部署，无需手动编译。
 
 ## 网站介绍
 
@@ -23,8 +23,8 @@
 获取代码
 
 ```bash
-git clone https://github.com/c422/c422-src.git
-cd c422-src
+git clone https://github.com/TJNU-iOS-Club/BlogSrc-Of-TJNU-iOS-Club.git
+cd BlogSrc-Of-TJNU-iOS-Club
 
 # 更新 submodule
 git submodule update --init --recursive

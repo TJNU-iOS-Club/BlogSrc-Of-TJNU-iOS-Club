@@ -9,7 +9,7 @@
   weight = 10
 
 [[main]]
-  name = "Member"
+  name = "Members"
   url = "#member"
   weight = 20
 
@@ -29,12 +29,12 @@
   weight = 60
 
 [[main]]
-  name = "Structure"
-  url = "#Structure"
+  name = "History"
+  url = "#history"
   weight = 25
 [[main]]
-  name = "Activity"
-  url = "#activity"
+  name = "Activities"
+  url = "#activities"
   weight = 35
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

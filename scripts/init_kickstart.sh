@@ -33,6 +33,6 @@ rsync -av ../themes/academic/exampleSite/content/talk/_index.md ../content/talk/
 sed -i '' -e 's/active = true/active = false/' ../content/home/hero.md
 
 # Manual Steps:
-# - content/home/activity.md: Re-comment out activity filters
-# - content/home/Slogan.md: Re-modify content & set gradient background instead of image
+# - content/home/activities.md: Re-comment out activity filters
+# - content/home/slogan.md: Re-modify content & set gradient background instead of image
 # - content/home/hero.md: Clear `hero_media` value & set gradient background instead of image

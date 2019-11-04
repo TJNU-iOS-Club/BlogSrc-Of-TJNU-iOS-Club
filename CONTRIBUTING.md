@@ -21,9 +21,9 @@
 
 ## 内容管理
 
-### 成员（Member）
+### 成员（Members）
 
-对应 `content/x/author/NAME` 中的文件。其中 `_index.md` 为个人基本信息，关键字段：
+对应 `content/x/authors/NAME` 中的文件。其中 `_index.md` 为个人基本信息，关键字段：
 
 - `name`: 姓名，英文以 **FirstName LastName** 的格式编辑，中文以 **姓名** 的格式进行
 - `authors`: 本文编辑者，在此只填一项，即自己的用户名，对应 `author` 目录下的子目录名
@@ -33,11 +33,20 @@
     organizations = [ { name = "Tianjin Normal University", url = "http://www.tjnu.edu.cn" } ]
     ```
 - `email`: 个人常用邮箱
-- `user_group`: 当前工作室的成员，请在此处填写 `["Current Members"]`，指导教师请填写 `["Advising Professors"]`，往届成员请填写 `["Former"]`。这里的内容对应 `member.md` 中的 `user_groups` 的定义
+- `user_group`: 当前社团的成员，请在此处填写 `["Current Members"]`，往届成员请填写 `["Former"]`。这里的内容对应 `member.md` 中的 `user_groups` 的定义
+
+### 历史（History）
+对应 `content/x/home/history.md` 文件，每一个历史节点，对应 markdown 文件中的一个 `[[experience]]`，博客系统将自动将其按填写时间排序，关键字段：
+
+- `title`：历史节点名称
+- `location`：历史发生地点
+- `date_start`：历史节点的开始时间
+- `date_end`：历史节点的结束时间
+- `description`：历史节点中的主要事迹描述
 
 ### 成果（Accomplishment）
 
-1. **命名规则**: **名-类型-简述**，例如：**zhaoyiqin-awd-cccc2017**，表示本文件为 **zhaoyiqin** 的 **获奖** 成果，获奖项目的简述为 **cccc2017**。所有文件命名，统一使用 **小写英文**
+1. **命名规则**: **名-类型-简述**，例如：**yangjin-awd-soiec2018**，表示本文件为 **yangjin** 的 **获奖** 成果，获奖项目的简述为 **soiec2018**。所有文件命名，统一使用 **小写英文**
     1. 类型枚举：
         1. **awd**：获奖（Award），如比赛奖项。在官网只统计校级以上的获奖
         1. **pro**：项目（Project），例如大创立项。
@@ -54,16 +63,41 @@
 
 **注意**: 如果某项目由多人完成，则只需建立一个项目，使用负责人名字命名。在项目的 `authors` 字段中填写其他成员。
 
+### 活动（Activities）
+
+对应 `content/x/project` 中的文件夹，一个活动对应一个文件夹。`featured.jpg` 为活动封面图，`index.md` 文件为活动的描述文件，其中填写的关键字为：
+
+- `title`：活动标题
+- `summary`: 显示在首页上的活动总结语
+- `tags`: 活动类型，
+
+    活动类型枚举：
+    
+    -  `Sharing`: 分享会
+    -  `Apple Store`: Apple Store 线下授课活动
+    -  `Camp`: 冬/夏令营
+    -  `CCCC`: 移动应用创新赛
+- `image` 选项下的 `caption` 是对封面解读语
+- `image` 选项下的 `focal_point` 默认 `Smart` 就好
+- `links` 选项默认填写如下内容：
+    ```bash
+       - icon: bold
+         icon_pack: fas
+         name: Follow
+         url: https://space.bilibili.com/472731247?from=search&seid=18104912749018562379
+    ```
+- 剩余的四个选项 `url_code`、`url_pdf`、`url_slides` 和 `url_video` 分别选填文中涉及的源码、PDF、PPT 和 视频链接
+
 ### 文章（Post）
 
-1. 建议收录每周分享的笔记和 ppt，编写格式类似于成果页面。
+1. 收录每周分享会的笔记和 ppt，编写格式类似于成果页面。
 
 ## Git 操作
 
 1. 推荐使用 [gitmoji](https://github.com/carloscuesta/gitmoji/) 工具来进行 commit，这样可以很好的添加直观的 commit message
 1. Pull Request 工作流：
-    1. **fork** `c422/c422-src`
-    1. 在本机 clone 你 fork 后的仓库，然后 **新建新分支**，命名规则：**名/功能**，例如：**zhaoyiqin/awd-cccc2017**
-    1. 在 `c422/c422-src` 中发起 pull request
+    1. **fork** `TJNU-iOS-Club/BlogSrc-Of-TJNU-iOS-Club`
+    1. 在本机 clone 你 fork 后的仓库，然后 **新建新分支**，命名规则：**名/功能**，例如：**yangjin/awd-soiec2017**
+    1. 在 `TJNU-iOS-Club/BlogSrc-Of-TJNU-iOS-Club` 中发起 pull request
     1. 更多内容，请参考 [Github - Pull Request](https://help.github.com/en/articles/about-pull-requests)
 1. PR 过程中，管理员有义务保证每一个人的 PR 内容是完整的，其中包括：中英文是否齐全，所添加的外链是否可用，图片是否可见。

@@ -1,8 +1,8 @@
 ---
-title: Internal Project
+title: Apple Store 互动
 summary: An example of using the in-built project page.
 tags:
-- Sharing
+- Apple Store
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -13,10 +13,10 @@ image:
   focal_point: Smart
 
 links:
-- icon: twitter
-  icon_pack: fab
+- icon: bold
+  icon_pack: fas
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://space.bilibili.com/472731247?from=search&seid=18104912749018562379
 url_code: ""
 url_pdf: ""
 url_slides: ""

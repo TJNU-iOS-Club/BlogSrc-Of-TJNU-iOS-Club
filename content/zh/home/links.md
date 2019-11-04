@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "链接"
+title = "相关链接"
 subtitle = ""
 
 # Showcase personal skills or business features.

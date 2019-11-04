@@ -50,6 +50,6 @@
   weight = 35
 
 [[zh.menu.main]]
-  name = "链接"
+  name = "相关链接"
   url = "#links"
   weight = 65

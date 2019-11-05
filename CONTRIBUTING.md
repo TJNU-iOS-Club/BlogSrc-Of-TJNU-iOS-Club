@@ -13,11 +13,15 @@
 
 ### 图片使用
 
-1. 如果需要使用图片，可以放置在 `static/img` 下，在引用时，可以通过 `/static/img/xxx.png` 这样的路径进行引用。
+1. 所有需要放在**源码**中的图片，必须经过[图片压缩](https://tinypng.com/) 网站压缩之后才可放在源码中！切记，切记！
+1. 所有 markdown 文章中需要用到的图片必须使用图床进行外链，此处推荐一个免费图床 [imgchr](https://imgchr.com/), 其无须注册即可使用；备选免费图床：[奕奕图床](https://img.eebk.com/)。
+1. 关于图片备份，所有使用图床外链的图片，须放置 [Pic_Storage](https://github.com/TJNU-iOS-Club/Pic_Storage) 进行备份，仓库主页有详细的备份指南。
 
 ### 外部资源
 
 1. 外部资源，如大型文件，请尽量保证放在能长期保存的地方，并且存留备份。
+1. 视屏类资源可考虑上传至社团 [bilibili 官号](https://space.bilibili.com/472731247?from=search&seid=18104912749018562379)，然后进行外链至此官页。
+1. 源码类资源可上传至 [TJUN iOS Club](https://github.com/TJNU-iOS-Club) 组织，然后外链至此官页。
 
 ## 内容管理
 
@@ -91,6 +95,7 @@
 ### 文章（Post）
 
 1. 收录每周分享会的笔记和 ppt，编写格式类似于成果页面。
+1. 建议将每周分享会的 PPT 或者 keynote 转为多图，然后使用[图床](https://imgchr.com/)外链至文章中, 并在 [Pic_Storage](https://github.com/TJNU-iOS-Club/Pic_Storage) 进行备份。
 
 ## Git 操作
 

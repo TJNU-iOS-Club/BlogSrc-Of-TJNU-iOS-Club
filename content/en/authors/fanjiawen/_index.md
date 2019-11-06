@@ -2,11 +2,11 @@
 
 # Display name
 
-name = "Penghao Wang"
+name = "Steve Fan"
 
 # Username (this should match the folder name)
 
-authors = ["wangpenghao"]
+authors = ["fanjiawen"]
 
 # Role/position
 
@@ -20,11 +20,11 @@ organizations = [ { name = "Tianjin Normal University", url = "http://www.tjnu.e
 
 # Short bio (displayed in user profile at end of posts)
 
-bio = "My research interests include affective computing and machine learning."
+bio = "My research interests include machine learning NLP and deep learning."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 
-email = "15560934896@163.com"
+email = "godjiawen@gmail.com"
 
 # Organizational groups that you belong to (for People widget)
 
@@ -52,5 +52,13 @@ user_groups = ["Current Members"]
 
 #   link = "files/cv.pdf"
 
-+++
-I am a sophomore major in software engineering at Tianjin Normal University, Tianjin, China. I am a core member of iOS Club. Besides, I am a key member of the Cognitive and Affective Computing Lab at my TJNU, advised by Prof. Ziping Zhao.
++++ 
+I am a 2018 undergraduate in software engineering at Tianjin Normal University, Tianjin, China.
+I participated in the 2019 ShangHai Winter Camp as a core member of the TJNU iOS Club.
+
+At present, under the guidance of Professor Zhang Guizhen from the College Big Data and Data Mining Laboratory, he is engaged in the study of natural language processing.
+
+Research direction: deep learning and natural language processing.
+
+If you are interested, checkout my selected projects and publications at here.  
+ More info about me: https://founderjiawen.github.io/

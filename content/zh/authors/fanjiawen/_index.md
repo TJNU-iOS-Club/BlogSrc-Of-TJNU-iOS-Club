@@ -2,11 +2,11 @@
 
 # Display name
 
-name = "Penghao Wang"
+name = "范嘉文"
 
 # Username (this should match the folder name)
 
-authors = ["wangpenghao"]
+authors = ["fanjiawen"]
 
 # Role/position
 
@@ -16,21 +16,21 @@ role = ""
 
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 
-organizations = [ { name = "Tianjin Normal University", url = "http://www.tjnu.edu.cn" } ]
+organizations = [ { name = "天津师范大学", url = "http://www.tjnu.edu.cn" }]
 
 # Short bio (displayed in user profile at end of posts)
 
-bio = "My research interests include affective computing and machine learning."
+bio = "天津师范大学2018级软件工程本科生，主要研究方向：机器学习,自然语言处理。"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 
-email = "15560934896@163.com"
+email = "godjiawen@gmail.com"
 
 # Organizational groups that you belong to (for People widget)
 
 #   Set this to `[]` or comment out if you are not using People widget.
 
-user_groups = ["Current Members"]
+user_groups = ["主要成员"]
 
 # Social/Academic Networking
 
@@ -53,4 +53,10 @@ user_groups = ["Current Members"]
 #   link = "files/cv.pdf"
 
 +++
-I am a sophomore major in software engineering at Tianjin Normal University, Tianjin, China. I am a core member of iOS Club. Besides, I am a key member of the Cognitive and Affective Computing Lab at my TJNU, advised by Prof. Ziping Zhao.
+我是天津师范大学软件工程专业2018级本科生,作为TJNU iOS Club核心成员参加了 2019 ShangHai Winter Camp. 
+
+目前在学院大数据与数据挖掘实验室张桂芸教授的指导下从事自然语言处理方向的研究学习.
+
+研究方向:深度学习与自然语言处理.
+
+更多关于我的信息:https://founderjiawen.github.io/

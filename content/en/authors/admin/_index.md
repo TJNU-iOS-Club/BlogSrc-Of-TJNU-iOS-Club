@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "TJUN-iOS-Club"
+name = "TJNU-iOS-Club"
 
 # Username (this should match the folder name)
 authors = ["admin"]

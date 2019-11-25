@@ -37,7 +37,7 @@ slides: example
 
 ![《Get 社交》](https://s2.ax1x.com/2019/11/25/MvgpMn.png)
 
-目前《Get 社交》已开发完成，上架至 App Store，点击[连接](http://box-get.com/)下载体验~
+目前《Get 社交》已开发完成，上架至 App Store，点击[连接](https://apps.apple.com/cn/app/get%E7%A4%BE%E4%BA%A4/id1439169281)下载体验~
 
 同样来自 TJNU iOS Club 的 CountingStars 团队由软件17级学生--杨金、刘书璇和软件15级学生--赵一勤组成，在朱金奇老师和赵川老师的指导下，以
 《Nebula-星云》作品荣获华北赛区二等奖。
@@ -45,5 +45,5 @@ slides: example
 ![《Nebula-星云》](https://s2.ax1x.com/2019/11/25/Mvy4oD.png)
 《Nebula-星云》目前还处于开发状态，敬请期待～
 
-本届赛事，TJNU iOS Club 包揽华北赛区一、二等奖，为社团历史添上新的一篇华章！希望所有社团成员再接再厉，在来年的移动应用创新赛创造更精彩的战绩～
+本届赛事，TJNU iOS Club 包揽华北赛区一、二等奖，为社团历史添上新的一篇华章！期待所有社团成员再接再厉，在来年的移动应用创新赛创造更精彩的战绩～
 ![战绩](featured.png)

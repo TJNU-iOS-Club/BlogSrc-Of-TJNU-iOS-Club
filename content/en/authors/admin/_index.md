@@ -41,11 +41,11 @@ user_groups = []
 +++
 
 
-We are the ios club of Tianjin Normal University, a student community strongly supported by Apple and the school of software of Tianjin Normal University.We        
-are committed to building an ios developer association that promotes learning and practice outside the classroom, building a team and creating the first ios app in our life.
+We are the iOS club of Tianjin Normal University, a student community strongly supported by Apple and the school of software of Tianjin Normal University.We        
+are committed to building an iOS developer association that promotes learning and practice outside the classroom, building a team and creating the first iOS app in our life.
 
-It is just a basic operation to learn about ios development, UI design, video cre-ation and other related technologies here.Knowing varieties of technology enthu-siasts is also not all. Ignite your love for technology and change what you have understood on innovation.Starting your team journey is the ultimate goal.
+It is just a basic operation to learn about iOS development, UI design, video cre-ation and other related technologies here.Knowing varieties of technology enthu-siasts is also not all. Igniting your love for technology ,changing what you have understood on innovation and starting your team journey is just the ultimate goal.
 
-We hold daily sharing meetings to exchange the latest technology trends.  Partici-pate in offline courses of Apple store to understand Apple culture and ios app de-sign specifications.We also take part in Apple winter and summer camp, coope-rating with outstanding ios club members from other universities.Besides, we join in the Mobile Application Innovation Competition (CCCC), and compete with the national excellent ios developers. 
+We hold daily sharing meetings to exchange the latest technology trends.  Partici-pate in offline courses of Apple store to understand Apple culture and iOS app design specifications.We also take part in Apple winter and summer camp, coope-rating with outstanding iOS club members from other universities.Besides, we join in the Mobile Application Innovation Competition (CCCC), and compete with the national excellent iOS developers. 
 
 Welcome to join us ~

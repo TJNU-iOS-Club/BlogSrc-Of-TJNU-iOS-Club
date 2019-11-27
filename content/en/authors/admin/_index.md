@@ -41,14 +41,11 @@ user_groups = []
 +++
 
 
-我们是天津师范大学 iOS 社团，一个得到 Apple 官方和天津师范大学软件学院大力支持的学生社团。
-我们致力于打造一个在课堂之外促进学习和实践的 iOS 开发者社团，组建团队并制作出人生第一个 iOS APP。
+We are the iOS club of Tianjin Normal University, a student community strongly supported by Apple and the school of software of Tianjin Normal University.We        
+are committed to building an iOS developer association that promotes learning and practice outside the classroom, building a team and creating the first iOS app in our life.
 
-在这里，学习了解 iOS 开发、UI 设计、视频创作等等相关技术只是基本操作，
-认识各种各样的技术发烧友也非全部；点燃你对技术的热爱，改变你对创新的理解，
-开启你的团队之旅才是最终目的。
+It is just a basic operation to learn about iOS development, UI design, video cre-ation and other related technologies here.Knowing varieties of technology enthu-siasts is also not all. Igniting your love for technology ,changing what you have understood on innovation and starting your team journey is just the ultimate goal.
 
-我们日常开展分享会，交流最新技术潮流；
-参与 Apple Store 线下课程，了解 Apple 文化和 iOS APP 设计规范；
-参与 Apple 冬夏令营，与来自其他高校的、优秀的 iOS Club 成员合作；
-参与移动应用创新赛(CCCC)，与全国优秀的 iOS 开发者同台竞争。欢迎你加入我们～
+We hold daily sharing meetings to exchange the latest technology trends.  Partici-pate in offline courses of Apple store to understand Apple culture and iOS app design specifications.We also take part in Apple winter and summer camp, coope-rating with outstanding iOS club members from other universities.Besides, we join in the Mobile Application Innovation Competition (CCCC), and compete with the national excellent iOS developers. 
+
+Welcome to join us ~

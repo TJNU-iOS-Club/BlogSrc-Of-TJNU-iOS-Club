@@ -47,4 +47,3 @@ slides: example
 
 本届赛事，TJNU iOS Club 包揽华北赛区一、二等奖，为社团历史添上新的一篇华章！期待所有社团成员再接再厉，在来年的移动应用创新赛创造更精彩的战绩～
 ![战绩](featured.png)
-[下载](https://www.yuque.com/tjnu-ios-club/cagf7u/44585)

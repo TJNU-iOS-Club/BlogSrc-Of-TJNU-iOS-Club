@@ -17,38 +17,40 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+#  此处可以不注意顺序，系统会自动按照时间排序，所以时间一定要写准确
 
 [[experience]]
-  title = "成立"
+  title = "Establishment"
   company = ""
   company_url = ""
-  location = "天津"
+  location = "Tianjin"
   date_start = "2017-09-01"
   date_end = "2018-08-30"
   description = """
-  2017 年 8 月，两位创始人，初任社长软件工程15级**赵一勤**和初任副社长软件工程16级**刘靖禹**，在备战 2017 年移动应用创新赛时，有幸参与了 iOS Club 夏令营，
-  遂萌生了将 iOS Club 作为技术社团引入本校的想法，并在新学期伊始之际，向学校官方提出社团成立申请。最终，2017 年 9 月，iOS Club 社团成立！
+  In August 2017, two founders, Zhao Yiqin, the first president of software engineering 15, and Liu Jingyu, the first vice president of software computer 16, had the honor to participate in the iOS Club summer camp when preparing for the 2017 Mobile Application Innovation Competition. So they initiated the idea of introducing iOS club into our school as a technology community. Then at the beginning of the new semester, they applied to the school official for the establishment of the community. 
+  
+  Finally, in September 2017, iOS club was establishd!
   """
 
 [[experience]]
-  title = "发展"
+  title = "Development"
   company = ""
   company_url = ""
-  location = "天津"
+  location = "Tianjin"
   date_start = "2018-08-30"
   date_end = "2019-08-30"
   description = """
-  2018 年 9 月，软件工程16级**孙静涵** 作为社团第一任核心成员，接替初任社长**赵一勤**成为第二任 iOS Club 社长。在其带领下，社团逐渐发展壮大，社团活跃人数最高接近百数。
+  In September 2018, Sun Jinghan, a 16 level software engineer, as the first core member of the association, replaced Zhao Yiqin, the first president to become the second president of iOS club. Under his leadership, the community gradually develops and grows, and the maximum number of active members of the community is close to 100!
   """
 
 [[experience]]
-  title = "成长"
+  title = "Growth"
   company = ""
   company_url = ""
-  location = "天津"
+  location = "Tianjin"
   date_start = "2019-09-01"
   date_end = ""
-  description = """2019 年 9 月，社团初代成员、软件工程17级**杨金**，接替第二任社长**孙静涵**成为第三任 iOS Club 社长，其致力于改革社团体制，使社团发展更加成熟。故事未完，
-  待你续写～"""
+  description = """In September 2019, Kim Yang , an early generation member of the association and a 17 level software engineer, succeeded Sun Jinghan, the second president, to become the third president of iOS club. He is committed to reforming the association system and making the development of the association more mature. The story is not over, waiting for you to continue to write ~
+  """
 
 +++

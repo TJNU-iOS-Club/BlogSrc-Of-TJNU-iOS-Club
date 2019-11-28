@@ -1,6 +1,6 @@
 ---
 title: 2019.11.27分享会
-summary: 范嘉文学长对于用Hexo搭建个人博客过程的分享
+summary: 用Hexo和Github Pages搭建个人博客过程的分享
 tags:
 - Sharing
 date: "2019-11-27T00:00:00Z"

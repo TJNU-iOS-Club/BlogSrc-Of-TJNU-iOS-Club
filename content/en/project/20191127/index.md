@@ -155,7 +155,7 @@ Hexo 官方提供的主题[下载](https://hexo.io/themes/)。
 ---
 <span style="color:#949494;font-size:16px">文章撰写：牛佳辉</span>
 
-<span style="color:#949494;font-size:16px">内容排版：牛家辉</span>
+<span style="color:#949494;font-size:16px">内容排版：牛佳辉</span>
 
 <span style="color:#949494;font-size:16px">全文校准：杨金</span>
 

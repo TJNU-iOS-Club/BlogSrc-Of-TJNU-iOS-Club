@@ -1,6 +1,6 @@
 ---
 title: 用 Hexo 和 GitHub Pages 搭建个人博客的分享
-summary: 2019.11.27关于搭建个人博客的分享会~
+summary: 对于一个计算机专业学生来说，写博客可以加深对技术的理解，记录自己的成长经历，可以结交更多志同道合的朋友。
 tags:
 - Sharing
 date: "2019-11-27T00:00:00Z"
@@ -67,14 +67,14 @@ slides: example
 
 ### 简单步骤
 
-#### 1.安装Git、Node.js
+#### 1.安装 Git 、Node.js
 
 Hexo 基于 Node.js，搭建过程中还需要使用 npm（Node.js 已带）和 git，因此先搭建本地操作环境，安装 Node.js 和 Git。
 
 点击下载
 [Node.js](https://nodejs.org/zh-cn)、[Git](https://git-scm.com/downloads)
 
-#### 2.安装Hexo
+#### 2.安装 Hexo
 
 在合适位置新建文件夹，用来存放博客文件。在该⽬录下右键点击Git Bash Here，定位到该文件夹。
 
@@ -88,7 +88,7 @@ Mac 用户需要管理员权限（sudo），运行这条命令：
 
 安装时耐心等待即可~
 
-#### 3.连接GitHub仓库与本地
+#### 3.连接 GitHub 仓库与本地
 
 在 GitHub 上创建 GitHub pages 项，新建一个名为 **username.github.io** 的仓库。
 博客文件夹下输⼊命令⽣成SSH Key：
@@ -97,10 +97,10 @@ Mac 用户需要管理员权限（sudo），运行这条命令：
 
 在 GitHub 中建⽴SSH，将本地SSH输入到 GitHub 的SSH选项⾥即可建立连接~
 
-#### 4.部署Hexo到Github
+#### 4.部署 Hexo 到 GitHub
 
 修改 _conﬁg.yml ⽂件最后⼀⾏配置为：
- 
+
     deploy:
       type: git  repository: https://github.com/username/username.github.io  
       branch: master
@@ -108,10 +108,10 @@ Mac 用户需要管理员权限（sudo），运行这条命令：
 完成后运行
 
     hexo d 
-   
-将网站上传部署到 GitHub Pages。这时访问我们的 GitHub 域名 https://用户名.github.io 就可以看到 Hexo 网站了~
 
-#### 5.发布⽂章
+将网站上传部署到 GitHub Pages。这时访问我们的 GitHub 域名 <https://username.github.io> 就可以看到 Hexo 网站了~
+
+#### 5.发布文章
 
 博客知名度想提高，内容的质量是不可或缺的一环。
 
@@ -130,18 +130,21 @@ Mac 用户需要管理员权限（sudo），运行这条命令：
 #### 6.个性化
 
 Hexo 官方提供的主题[下载](https://hexo.io/themes/)。
+
 知乎上一些美化的方法[点击这里](https://zhuanlan.zhihu.com/p/69211731)。
 
 ### 具体的步骤[点击这里](https://godweiyang.com/2018/04/13/hexo-blog/)或者大家自行寻找资源，这里不多赘述~
 **注**：搬运自韦阳大大的blog~
 
 ## 博客效果
+
 分享一下学长的博客：
+
 ![QizBgP.png](https://s2.ax1x.com/2019/11/28/QizBgP.png)
 
 同学们的：
-![Qiq1eA.png](https://s2.ax1x.com/2019/11/28/Qiq1eA.png)
 
+![Qiq1eA.png](https://s2.ax1x.com/2019/11/28/Qiq1eA.png)
 
 ![QibwUx.md.png](https://s2.ax1x.com/2019/11/28/QibwUx.md.png)
 

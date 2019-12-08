@@ -31,7 +31,12 @@ slides: example
 ---
 27日周三晚上，成员们如约来到博A106准备开始本周的分享会，本周的分享会是由范嘉文学长主讲，主要内容是用Hexo和GitHub Pages来搭建个人的博客~
 
+
+
+
 ## 写在前面
+
+
 
 搭建个人博客，一般有三种方法：
 
@@ -41,13 +46,12 @@ slides: example
 
 为什么不用Wordpress？
 钱！
-
 为什么不自己编写？
 难！
 
 所以，第二种方法用**静态网页+博客框架**来搭建博客成了我们的最佳选择！
 
-#### Hexo 是一个简单、快速、强大的基于 Github Pages 的博客发布工具，支持Markdown格式，有众多优秀插件和主题。
+>Hexo 是一个简单、快速、强大的基于 Github Pages 的博客发布工具，支持Markdown格式，有众多优秀插件和主题。
 
 而且使用 GitHub Pages 服务搭建博客有众多的好处：
 
@@ -57,15 +61,15 @@ slides: example
 - 数据绝对安全，基于 GitHub 的版本管理，想恢复到哪个历史版本都行；
 - 博客内容可以轻松打包、转移、发布到其它平台；
 
+
+
 是不是迫不及待了呢？马上开始今天的分享~
+
+
 
 ## 搭建步骤
 
-### 准备工作
 
-创建自己的 GitHub 账号
-
-### 简单步骤
 
 #### 1.安装 Git 、Node.js
 
@@ -90,7 +94,7 @@ Mac 用户需要管理员权限（sudo），运行这条命令：
 
 #### 3.连接 GitHub 仓库与本地
 
-在 GitHub 上创建 GitHub pages 项，新建一个名为 **username.github.io** 的仓库。
+在 GitHub 上创建 GitHub pages 项，新建一个名为 username.github.io 的仓库。
 博客文件夹下输⼊命令⽣成SSH Key：
 
     ssh-keygen -t rsa -C “user’s email"
@@ -133,22 +137,39 @@ Hexo 官方提供的主题[下载](https://hexo.io/themes/)。
 
 知乎上一些美化的方法[点击这里](https://zhuanlan.zhihu.com/p/69211731)。
 
-### 具体的步骤[点击这里](https://godweiyang.com/2018/04/13/hexo-blog/)或者大家自行寻找资源，这里不多赘述~
+
+
+
+***
+**具体的步骤**[点击这里](https://godweiyang.com/2018/04/13/hexo-blog/)或者大家自行寻找资源，这里不多赘述~
 **注**：搬运自韦阳大大的blog~
+***
+
+
 
 ## 博客效果
+
+
 
 分享一下学长的博客：
 
 ![QizBgP.png](https://s2.ax1x.com/2019/11/28/QizBgP.png)
 
+
+
 同学们的：
 
 ![Qiq1eA.png](https://s2.ax1x.com/2019/11/28/Qiq1eA.png)
 
+
 ![QibwUx.md.png](https://s2.ax1x.com/2019/11/28/QibwUx.md.png)
 
+
+
+
 ## 总结
+
+
 
 紧张的分享会很快就结束了，许多同学在学长的帮助下已经搭建好了属于自己的博客。个性化的主题固然必不可少，最重要的还是要不断去丰富自己博客的内容。**让其拥有更多有深度的内容，学习更多的专业知识**，才是我们作为一名计算机专业学生，作为一名准程序员更应该去做的事情，也是我们**iOS club**的初衷。希望同学们不断学习，不断丰富自己的博客，我们下次分享会再见~
 

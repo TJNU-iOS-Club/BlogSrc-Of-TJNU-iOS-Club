@@ -16,3 +16,24 @@ counter.innerHTML += '<span id="busuanzi_container_site_pv"> 本站访客数<spa
 footer.insertBefore(counter,poweredBy)
 counter.style.margin=0
 
+const dateTime=document.createElement('p')
+footer.insertBefore(dateTime,counter)
+dateTime.style.margin=0
+function runtime(){
+  // 初始时间，日/月/年 时:分:秒
+  X = new Date("11/18/2016 8:32:00");
+  Y = new Date();
+  T = (Y.getTime()-X.getTime());
+  M = 24*60*60*1000;
+  a = T/M;
+  A = Math.floor(a);
+  b = (a-A)*24;
+  B = Math.floor(b);
+  c = (b-B)*60;
+  C = Math.floor((b-B)*60);
+  D = Math.floor((c-C)*60);
+  //信息写入到DIV中
+  dateTime.innerHTML = "本站已经运行:  "+A+" 天 "+B+" 小时 "+C+" 分 "+D+" 秒"
+}
+setInterval(runtime, 1000);
+

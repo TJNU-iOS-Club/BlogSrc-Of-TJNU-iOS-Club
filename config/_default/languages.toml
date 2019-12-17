@@ -22,34 +22,34 @@
 [[zh.menu.main]]
   name = "成员"
   url = "#member"
-  weight = 20
+  weight = 40
 
 [[zh.menu.main]]
   name = "成果"
   url = "#acc"
-  weight = 30
+  weight = 60
 
 [[zh.menu.main]]
   name = "文章"
   url = "#posts"
-  weight = 40
+  weight = 70
 
 [[zh.menu.main]]
   name = "联系我们"
   url = "#contact"
-  weight = 50
+  weight = 80
 
 [[zh.menu.main]]
   name = "历史"
   url = "#history"
-  weight = 25
+  weight = 50
 
 [[zh.menu.main]]
   name = "活动"
   url = "#activities"
-  weight = 35
+  weight = 30
 
 [[zh.menu.main]]
   name = "相关链接"
   url = "#links"
-  weight = 65
+  weight = 90

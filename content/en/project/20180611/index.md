@@ -30,9 +30,6 @@ url_video: ""
 slides: example
 ---
 
-[点击阅读原文](https://mp.weixin.qq.com/s/_pIxm6f38aIV6OUz2KQbAg)
-
-
 6月2日，坐标天津恒隆广场 ，有一家种树的 Apple Store。
 
 ![](https://s2.ax1x.com/2019/11/05/MScVjU.jpg)
@@ -62,4 +59,6 @@ Apple Store 会定期发布更多更有趣的活动等着大家来参与，如�
 联系我们告知你的想法，让我们一起把想法赋予行动。
 
 ![](https://s2.ax1x.com/2019/11/05/MSceuF.jpg)
+
+转载自 TJNU iOS Club 官微，[点击阅读原文](https://mp.weixin.qq.com/s/_pIxm6f38aIV6OUz2KQbAg)
 

@@ -22,8 +22,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-[点击阅读原文](https://mp.weixin.qq.com/s/zlMQglZ6ncBGCh2i9uHpLA)
-
 天津师范大学的 iOS Club 承办于2017年9月，拥有良好的教育资源与硬件资源。
 ![MSyqQU.jpg](https://s2.ax1x.com/2019/11/05/MSyqQU.jpg)
 2017开学期间招募并选拔了积极踊跃的学生团体并初次确定 Core Member。我们以项目为核心进行学习，并由多位开发者举办 Session 普及开发方面的知识，并定期组织优秀学生进行自身的开发经验分享。
@@ -59,4 +57,4 @@ url_video: ""
 
 ![](https://s2.ax1x.com/2019/11/05/MS6wlT.jpg)
 
-
+转载自 TJNU iOS Club 官微，[点击阅读原文](https://mp.weixin.qq.com/s/zlMQglZ6ncBGCh2i9uHpLA)

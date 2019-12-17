@@ -21,7 +21,7 @@ footer.insertBefore(dateTime,counter)
 dateTime.style.margin=0
 function runtime(){
   // 初始时间，日/月/年 时:分:秒
-  X = new Date("10/10/2019 8:32:00");
+  X = new Date("10/10/2019 00:00:00");
   Y = new Date();
   T = (Y.getTime()-X.getTime());
   M = 24*60*60*1000;

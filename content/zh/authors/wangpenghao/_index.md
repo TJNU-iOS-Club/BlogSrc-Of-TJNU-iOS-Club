@@ -30,7 +30,7 @@ email = "15560934896@163.com"
 
 #   Set this to `[]` or comment out if you are not using People widget.
 
-user_groups = ["主要成员"]
+user_groups = ["往届成员"]
 
 # Social/Academic Networking
 

@@ -20,7 +20,7 @@ email = "kimyang95@163.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["主要成员"]
+user_groups = ["往届成员"]
 
 
 # Social/Academic Networking

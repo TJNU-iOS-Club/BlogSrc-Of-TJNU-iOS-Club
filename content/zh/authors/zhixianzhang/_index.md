@@ -10,7 +10,7 @@ authors = ["zhangzhixian"]
 
 # Role/position
 
-role = ""
+role = "开发副部"
 
 # Organizations/Affiliations
 

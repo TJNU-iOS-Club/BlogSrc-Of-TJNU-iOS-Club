@@ -6,7 +6,7 @@ name = "赵一勤"
 authors = ["zhaoyiqin"]
 
 # Role/position
-role = "2019届"
+role = "2019 届"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.

@@ -11,35 +11,35 @@
 [[main]]
   name = "Members"
   url = "#member"
-  weight = 20
+  weight = 40
 
 [[main]]
   name = "Accomplish­ments"
   url = "#acc"
-  weight = 30
+  weight = 60
 
 [[main]]
   name = "Posts"
   url = "#posts"
-  weight = 40
+  weight = 70
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 80
 
 [[main]]
   name = "History"
   url = "#history"
-  weight = 25
+  weight = 50
 [[main]]
   name = "Activities"
   url = "#activities"
-  weight = 35
+  weight = 30
 [[main]]
   name = "Links"
   url = "#links"
-  weight = 65
+  weight = 90
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]

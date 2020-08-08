@@ -6,7 +6,7 @@ name = "Shuxuan Liu"
 authors = ["liushuxuan"]
 
 # Role/position
-role = ""
+role = "Class 2021"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -20,7 +20,7 @@ email = "915825980@qq.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Current Members"]
+user_groups = ["Former"]
 
 
 # Social/Academic Networking

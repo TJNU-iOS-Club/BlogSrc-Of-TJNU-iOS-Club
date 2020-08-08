@@ -12,7 +12,9 @@
 - **历史（History）**：对应 `content/x/home/history.md` 文件，每一个历史节点，对应 markdown 文件中的一个 `[[experience]]`，博客系统将自动将其按填写时间排序
 - **成果（Accomplishment）**：对应 `content/x/accomplishment` 中的文件，每个成员请独立维护 **中英双语** 档案
 - **活动（Activities）**：对应 `content/x/project` 中的文件夹，一个活动对应一个文件夹。
-- **文章（Post）**：对应 `content/x/post` 中的文件，可以只支持中文，但是要复制一份放在英文目录下
+- **文章（Post）**：对应 `content/x/post` 中的文件。
+
+**所有内容可以只支持中文，但是要复制一份中文文档放在英文目录下，以确保中英文内容完全一致**
 
 ## 内容更新与维护
 

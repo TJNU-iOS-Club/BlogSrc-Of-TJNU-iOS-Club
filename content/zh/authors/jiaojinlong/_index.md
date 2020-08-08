@@ -10,7 +10,7 @@ authors = ["jiaojinlong"]
 
 # Role/position
 
-role = ""
+role = "2021 届"
 
 # Organizations/Affiliations
 
@@ -30,7 +30,7 @@ email = "GoldragonJiao@outlook.com"
 
 #   Set this to `[]` or comment out if you are not using People widget.
 
-user_groups = ["主要成员"]
+user_groups = ["往届成员"]
 
 # Social/Academic Networking
 

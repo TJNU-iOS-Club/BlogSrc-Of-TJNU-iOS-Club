@@ -10,7 +10,7 @@ authors = ["fanjiawen"]
 
 # Role/position
 
-role = ""
+role = "President"
 
 # Organizations/Affiliations
 

@@ -41,8 +41,7 @@ user_groups = []
 +++
 
 
-We are the iOS club of Tianjin Normal University, a student community strongly supported by Apple and the school of software of Tianjin Normal University.We        
-are committed to building an iOS developer association that promotes learning and practice outside the classroom, building a team and creating the first iOS app in our life.
+We are the iOS club of Tianjin Normal University, a student community strongly supported by Apple and the school of software of Tianjin Normal University.We are committed to building an iOS developer association that promotes learning and practice outside the classroom, building a team and creating the first iOS app in our life.
 
 It is just a basic operation to learn about iOS development, UI design, video cre-ation and other related technologies here.Knowing varieties of technology enthu-siasts is also not all. Igniting your love for technology ,changing what you have understood on innovation and starting your team journey is just the ultimate goal.
 

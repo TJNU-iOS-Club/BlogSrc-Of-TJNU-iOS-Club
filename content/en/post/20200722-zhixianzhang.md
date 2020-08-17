@@ -1,34 +1,19 @@
----
-title: 2020年iOS CLUB人员变动通知
-summary: 2020年人员变动,快来看看吧！
-tags:
-- Sharing
-date: “2020-06-22T00:00:00Z"
++++
+title = "2020年iOS CLUB人员变动通知"
+summary = "2020年人员变动,快来看看吧!"
 
-# Optional external URL for project (replaces project detail page).
-external_link: ""
+date = "2020-07-22T00:00:00+00:00"
+tags = []
 
-image:
-  caption: 官方封图
-  focal_point: Smart
+authors = ["zhixianzhang"]
+[header]
+image = ""
+caption = ""
 
-links:
-- icon: bold
-  icon_pack: fas
-  name: Follow
-  url: https://space.bilibili.com/472731247?from=search&seid=18104912749018562379
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: example
----
+
+
++++
 
 
 
@@ -58,12 +43,12 @@ slides: example
 
 | 核心成员 |
 | -------- |
-| 王亚博   |
-| 郭昊瑜   |
-| 刘佳林   |
-| 金雨潭   |
-| 黄一群   |
-| 李勇杰   |
+| 王亚博 |
+| 郭昊瑜 |
+| 刘佳林 |
+| 金雨潭 |
+| 黄一群 |
+| 李勇杰 |
 
 [各项考核结果明细](https://docs.qq.com/sheet/DUUFxd0xRQWRmbm5B?tab=bb08j2)
 

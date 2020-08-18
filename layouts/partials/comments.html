@@ -59,7 +59,7 @@
     owner: '{{ .Site.Params.Gitalk.owner }}',//仓库所属者，组织名或用户名
     admin: ["YiqinZhao","KimYangOfCat","godjiawen"] ,//管理员：可以初始化一个评论区（即创建一个issue，普通用户无法初始化），填入对应的Github ID，确保这个ID的用户对仓库有读写的权限，
     labels:['Comments'],//评论创建的标签名
-    id: md5(location.href.trimEnd('location.pathname')),//Gitalk基于id来区分不同文章的评论区，这个id也会生成一个类似""的label，所以这样的label不可以删除，删除就会丢失评论；由于采用的是md5值，失去了可读性，但是可以确保唯一性
+    id: md5(location.href.trimEnd(location.pathname)),//Gitalk基于id来区分不同文章的评论区，这个id也会生成一个类似""的label，所以这样的label不可以删除，删除就会丢失评论；由于采用的是md5值，失去了可读性，但是可以确保唯一性
     distractionFreeMode: false, // Facebook-like distraction free mode
     language:'zh-CN',
     perPage:10,//每次加载的数据大小，最多 100

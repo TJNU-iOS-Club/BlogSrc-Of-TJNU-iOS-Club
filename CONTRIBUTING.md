@@ -110,6 +110,26 @@
 1. 收录每周分享会的笔记和 ppt，编写格式类似于成果页面。
 1. 建议将每周分享会的 PPT 或者 keynote 转为多图，然后使用[图床](https://imgchr.com/)外链至文章中, 并在 [Pic_Storage](https://github.com/TJNU-iOS-Club/Pic_Storage) 进行备份。
 
+## 评论功能
+距离官网上线快一年的时光啦，评论功能终于上线啦！🎉
+
+评论功能是基于 [Gitalk](https://github.com/gitalk/gitalk) 实现的，其主要的参数主要分布在 [`layouts/partials/comments.html`](/layouts/partials/comments.html) 和 [`/config/_default/config.toml`](/config/_default/config.toml)中，
+点击可查看详细参数细节
+
+### 评论功能日常维护办法
+评论区的主要参数已经设定好，一般不需要修改，在日常维护主要注意两点：
+
+1. 文章的初始化
+  
+    [`layouts/partials/comments.html`](/layouts/partials/comments.html) 文件的 `admin` 参数规定了管理员，只有管理员才有初始化评论区的权限，所以新文章发布时需要管理员访问一次文章，来初始化一个评论区，即创建一个 issue 来存储评论！所以传承社团时，记得将相关人员添加进 `admin` 管理员列表，且要求其是组织的拥有者，而非成员！
+2. 防止误删 issue 
+    Gitalk 主要根据 issue 的 labels（标签）来区分不同的文章的评论区，label 标签由[`layouts/partials/comments.html`](/layouts/partials/comments.html) 文件中的 `id` 和 `labels` 共同组成：
+    + `labels` 规定为 Comments ，不必更改。
+    + `id` 是由页面路径计算出的 MD5 值，该值最后会生成一个类似 `61082b2c9168e70722cdb264616253cd` 的 label，它才是主要用于区分的 label，所以在 issues 中见到类似的 label，**不可删除**，**不可删除**，**不可删除**！同理，所有用于存储评论的 issue **不可关闭**  **不可关闭** **不可关闭**，其 Labels 也**不可随意修改（包括添加，删除）！**，**不可随意修改（包括添加，删除）**，**不可随意修改（包括添加，删除）**，重要的事儿说三遍！
+    + 最后为方便管理源码，评论所用 issue 存储在 [TJNU-iOS-Club.github.io](https://github.com/TJNU-iOS-Club/TJNU-iOS-Club.github.io) 仓库的 issues 中，与 [BlogSrc-Of-TJNU-iOS-Club](https://github.com/TJNU-iOS-Club/BlogSrc-Of-TJNU-iOS-Club) 源码仓库隔绝，方便维护！
+
+做到以上两点，评论功能就无忧啦！！
+
 ## Git 操作
 
 1. 推荐使用 [gitmoji](https://github.com/carloscuesta/gitmoji/) 工具来进行 commit，这样可以很好的添加直观的 commit message

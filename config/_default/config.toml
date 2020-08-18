@@ -68,10 +68,10 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 # gitalk 做评论系统
 [Params]
-enableGitalk = true
+enableGitalk = true # 是否启用评论系统
 
 [Params.Gitalk]
-clientID = "5372b71f251af871c618" # Your client ID
-clientSecret = "d6fd040045363d30087917e05a476c981613ba5a" # Your client secret
-repo = "BlogSrc-Of-TJNU-iOS-Club" # The repo to store comments
-owner = "TJNU-iOS-Club" # Your GitHub ID
+clientID = "5372b71f251af871c618" # OAuth App ID
+clientSecret = "d6fd040045363d30087917e05a476c981613ba5a" # OAuth App Secret
+repo = "TJNU-iOS-Club.github.io" # 仓库名
+owner = "TJNU-iOS-Club" #仓库所属者，组织名或用户名

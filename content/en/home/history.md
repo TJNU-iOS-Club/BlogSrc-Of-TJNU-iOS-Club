@@ -49,8 +49,18 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Tianjin"
   date_start = "2019-09-01"
+  date_end = "2020-09-01"
+  description = """In September 2019, Kim Yang , an early generation member of the association and a 17 level software engineer, succeeded Sun Jinghan, the second president, to become the third president of iOS club. He is committed to reforming the association system and making the development of the association more mature. T
+  """
+
+[[experience]]
+  title = "Perfection"
+  company = ""
+  company_url = ""
+  location = "Tianjin"
+  date_start = "2020-09-01"
   date_end = ""
-  description = """In September 2019, Kim Yang , an early generation member of the association and a 17 level software engineer, succeeded Sun Jinghan, the second president, to become the third president of iOS club. He is committed to reforming the association system and making the development of the association more mature. The story is not over, waiting for you to continue to write ~
+  description = """In September 2020, Steve Fan, as the most suitable candidate of 2018, will replace the third president of the iOS club, Kim Yang, and become the fourth president of iOS club. It strictly improves the selection system of association members and enriches the contents and forms of community activities. Enhance the cohesion of the community. The story is not over, waiting for you to continue to write ~
   """
 
 +++

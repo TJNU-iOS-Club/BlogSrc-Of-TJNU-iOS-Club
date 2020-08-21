@@ -56,9 +56,16 @@ user_groups = ["Current Members"]
 I am a 2018 undergraduate in software engineering at Tianjin Normal University, Tianjin, China.
 I participated in the 2019 ShangHai Winter Camp as a core member of the TJNU iOS Club.
 
+Currently serving as the president of the 2020 TJNU iOS Club.
+
+Awards: 2019 National University Computer Ability Challenge Big Data Algorithm Competition National Second Prize (Top5%)
+       The second prize of the 2020 China University Computer Design Competition Tianjin Division
+       The third prize of the Tianjin Division of the China "Internet +" Contest in 2020
+       2020 National Project "Ben Mo Ying Xia" of China University Student Innovation and Entrepreneurship Project
+
 At present, under the guidance of Professor Zhang Guizhen from the College Big Data and Data Mining Laboratory, he is engaged in the study of natural language processing.
 
-Research direction: deep learning and natural language processing.
+Research direction: Algorithm，Game Development.
 
 If you are interested, checkout my selected projects and publications at here.  
- More info about me: https://founderjiawen.github.io/
+ More info about me: https://godjiawen.github.io/

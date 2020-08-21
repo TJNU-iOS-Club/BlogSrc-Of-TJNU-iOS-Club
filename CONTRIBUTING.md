@@ -39,7 +39,7 @@
     organizations = [ { name = "Tianjin Normal University", url = "http://www.tjnu.edu.cn" } ]
     ```
 - `email`: 个人常用邮箱
-- `user_group`: 当前社团的成员，请在此处填写 `["Current Members"]`，往届成员请填写 `["Former"]`。这里的内容对应 `member.md` 中的 `user_groups` 的定义
+- `user_group`: 当前社团的成员，请在此处填写 `["Current Members"]`，往届成员请填写 `["Alumni"]`。这里的内容对应 `member.md` 中的 `user_groups` 的定义
 
 #### 新成员添加要求
 新加入成员需满足四项成果之一，即获奖（Award），项目（Project），论文（Publication），奖学金（Scholarship）：
@@ -89,7 +89,7 @@
 - `tags`: 活动类型，
 
     活动类型枚举：
-    
+
     -  `Sharing`: 分享会
     -  `Apple Store`: Apple Store 线下授课活动
     -  `Camp`: 冬/夏令营
@@ -120,9 +120,9 @@
 评论区的主要参数已经设定好，一般不需要修改，在日常维护主要注意两点：
 
 1. 文章的初始化
-  
+
     [`layouts/partials/comments.html`](/layouts/partials/comments.html) 文件的 `admin` 参数规定了管理员，只有管理员才有初始化评论区的权限，所以新文章发布时需要管理员访问一次文章，来初始化一个评论区，即创建一个 issue 来存储评论！所以传承社团时，记得将相关人员添加进 `admin` 管理员列表，且要求其是组织的拥有者，而非成员！
-2. 防止误删 issue 
+2. 防止误删 issue
     Gitalk 主要根据 issue 的 labels（标签）来区分不同的文章的评论区，label 标签由[`layouts/partials/comments.html`](/layouts/partials/comments.html) 文件中的 `id` 和 `labels` 共同组成：
     + `labels` 规定为 Comments ，不必更改。
     + `id` 是由页面路径计算出的 MD5 值，该值最后会生成一个类似 `61082b2c9168e70722cdb264616253cd` 的 label，它才是主要用于区分的 label，所以在 issues 中见到类似的 label，**不可删除**，**不可删除**，**不可删除**！同理，所有用于存储评论的 issue **不可关闭**  **不可关闭** **不可关闭**，其 Labels 也**不可随意修改（包括添加，删除）！**，**不可随意修改（包括添加，删除）**，**不可随意修改（包括添加，删除）**，重要的事儿说三遍！

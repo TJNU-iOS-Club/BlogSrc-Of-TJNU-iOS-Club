@@ -30,7 +30,7 @@ email = "GoldragonJiao@outlook.com"
 
 #   Set this to `[]` or comment out if you are not using People widget.
 
-user_groups = ["Former"]
+user_groups = ["Alumni"]
 
 # Social/Academic Networking
 
@@ -52,13 +52,13 @@ user_groups = ["Former"]
 
 #   link = "files/cv.pdf"
 
-+++ 
-I am an undergraduate software engineering student at Tianjin Normal University, Tianjin, China. 
++++
+I am an undergraduate software engineering student at Tianjin Normal University, Tianjin, China.
 I am a core member of iOS Club and I have attended Apple Summer Camp  Nanjing of China, 2018. Additionaly, I am a key member of the Cognitive and Affective Computing Lab from Center for Affective Intelligence International Studies at my TJNU, advised by Prof. Ziping Zhao.
 
 Currently participating in the project development of “support theory and innovation model of healthy pension cross-border service”.
 
 Research interests: Speech and video emotion recognition, Data mining.
 
-If you are interested, checkout my selected projects and publications at here.  
+If you are interested, checkout my selected projects and publications at here.
  More info about me: https://cyberjiao.top

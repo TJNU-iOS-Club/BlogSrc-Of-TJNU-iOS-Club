@@ -30,7 +30,7 @@ email = "15560934896@163.com"
 
 #   Set this to `[]` or comment out if you are not using People widget.
 
-user_groups = ["Former"]
+user_groups = ["Alumni"]
 
 # Social/Academic Networking
 

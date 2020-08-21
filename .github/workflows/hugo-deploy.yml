@@ -13,8 +13,8 @@ jobs:
     - name: 'Building...'
       uses: reuixiy/hugo-deploy@v1
       env:
-        DEPLOY_REPO: TJNU-iOS-Club/BlogSrc-Of-TJNU-iOS-Club
-        DEPLOY_BRANCH: gh-pages
+        DEPLOY_REPO: TJNU-iOS-Club/TJNU-iOS-Club.github.io
+        DEPLOY_BRANCH: master
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         TZ: Asia/Shanghai

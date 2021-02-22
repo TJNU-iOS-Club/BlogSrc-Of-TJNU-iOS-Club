@@ -20,7 +20,7 @@ organizations = [ { name = "天津师范大学", url = "http://www.tjnu.edu.cn" 
 
 # Short bio (displayed in user profile at end of posts)
 
-bio = "天津师范大学2018级软件工程本科生，主要研究方向：机器学习,自然语言处理。"
+bio = "天津师范大学2018级软件工程本科生，主要方向：算法研究 游戏开发研究。"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 
@@ -53,10 +53,17 @@ user_groups = ["主要成员"]
 #   link = "files/cv.pdf"
 
 +++
-我是天津师范大学软件工程专业2018级本科生,作为TJNU iOS Club核心成员参加了 2019 ShangHai Winter Camp. 
+我是天津师范大学软件工程专业2018级本科生,作为TJNU iOS Club核心成员参加了 2019 ShangHai Winter Camp 和 2020 领导力训练营. 
+
+现担任2020级TJNU iOS Club社长。
+
+奖项：2019年全国高校计算机能力挑战赛大数据算法赛全国二等奖(Top5%) 
+     2020年中国大学生计算机设计大赛天津赛区二等奖 
+     2020年中国“互联网+”大赛天津赛区三等奖
+     2020年中国大学生创新创业项目国家级项目《笔墨英侠》
 
 目前在学院大数据与数据挖掘实验室张桂芸教授的指导下从事自然语言处理方向的研究学习.
 
-研究方向:深度学习与自然语言处理.
+研究方向:算法研究，游戏开发.
 
-更多关于我的信息:https://founderjiawen.github.io/
+更多关于我的信息:https://godjiawen.github.io/

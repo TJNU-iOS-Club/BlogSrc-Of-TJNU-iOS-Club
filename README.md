@@ -1,6 +1,7 @@
 # 天津师范大学 iOS Club 主页
 
-这里是天津师范大学，iOS Club [官网](https:/TJNU-iOS-Club/TJNU-iOS-Club.github.io)的工程仓库页面。本项目使用 [hugo-academic](https://github.com/gcushen/hugo-academic) 作为项目模版进行了自定义 DIY。此外，本仓库启用了 [Travis-CI 流水线](https://travis-ci.org/TJNU-iOS-Club/BlogSrc-Of-TJNU-iOS-Club/builds)，当 `master` 分支更新后，可以自动部署，无需手动编译。
+这里是天津师范大学，iOS Club [官网](https:/TJNU-iOS-Club/TJNU-iOS-Club.github.io)的工程仓库页面。本项目使用 [hugo-academic](https://github.com/gcushen/hugo-academic) 作为项目模版进行了自定义 DIY。
+本仓库已将 CI 从 Travis 迁移至 Actions ，当 `master` 分支更新后，可以自动部署，无需手动编译！
 
 ## 网站介绍
 

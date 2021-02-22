@@ -1,34 +1,19 @@
----
-title: 2020年iOS CLUB人员变动通知
-summary: 2020年人员变动,快来看看吧！
-tags:
-- Sharing
-date: “2020-06-22T00:00:00Z"
++++
+title = "2020年iOS CLUB人员变动通知"
+summary = "2020年人员变动,快来看看吧!"
 
-# Optional external URL for project (replaces project detail page).
-external_link: ""
+date = "2020-07-22T00:00:00+00:00"
+tags = []
 
-image:
-  caption: 官方封图
-  focal_point: Smart
+authors = ["zhixianzhang"]
+[header]
+image = ""
+caption = ""
 
-links:
-- icon: bold
-  icon_pack: fas
-  name: Follow
-  url: https://space.bilibili.com/472731247?from=search&seid=18104912749018562379
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: example
----
+
+
++++
 
 
 
@@ -48,7 +33,7 @@ slides: example
 
 | 社长     | 范嘉文 |
 | -------- | ------ |
-| 副社长   | 牛嘉辉 |
+| 副社长   | 牛佳辉 |
 | 开发部长 | 张子瀚 |
 | 开发副部 | 张智贤 |
 | 设计部长 | 袁源   |

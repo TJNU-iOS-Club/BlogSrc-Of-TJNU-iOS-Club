@@ -20,7 +20,7 @@ email = "Arabaku@126.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Former"]
+user_groups = ["Alumni"]
 
 
 # Social/Academic Networking

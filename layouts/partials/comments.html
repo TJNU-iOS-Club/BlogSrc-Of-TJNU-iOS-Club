@@ -9,48 +9,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script>
-  //去除尾部匹配正则数组的字符串，用于简化 localtion.pathname
-  String.prototype.trimEnd = function(regStr)
-  {
-    var result = this;
-    if(regStr==undefined||regStr==null||regStr=="")
-    {
-      return result;
-    }
-    var array = regStr.split(',');
-
-    if(array.length > 0){
-
-      var c = array.shift();
-      var str= this;
-      var i = str.length;
-      var rg = new RegExp(c);
-      var matchArr = str.match(rg);
-
-      if(matchArr != undefined && matchArr != null && matchArr.length > 0)
-      {
-        var matchStr = matchArr[0].replace(/\\/g, "\\\\").replace(/\*/g, "\\*")
-          .replace(/\+/g, "\\+").replace(/\|/g, "\\|")
-          .replace(/\{/g, "\\{").replace(/\}/g, "\\}")
-          .replace(/\(/g, "\\(").replace(/\)/g, "\\)")
-          .replace(/\^/g, "\\^").replace(/\$/g, "\\$")
-          .replace(/\[/g, "\\[").replace(/\]/g, "\\]")
-          .replace(/\?/g, "\\?").replace(/\,/g, "\\,")
-          .replace(/\./g, "\\.").replace(/\&/g, "\\&");
-        matchStr = matchStr + '$';
-        result = str.replace(new RegExp(matchStr), "");
-      }
-
-      if(array.length > 0){
-        return result.trimEnd(array.join())
-      }
-      else{
-        return result;
-      }
-    }
-  };
-</script>
-<script>
   const gitalk = new Gitalk({
     //主要参数设定如下：
     clientID: '{{ .Site.Params.Gitalk.clientID }}',//OAuth App ID
@@ -59,7 +17,7 @@
     owner: '{{ .Site.Params.Gitalk.owner }}',//仓库所属者，组织名或用户名
     admin: ["YiqinZhao","KimYangOfCat","godjiawen"] ,//管理员：可以初始化一个评论区（即创建一个issue，普通用户无法初始化），填入对应的Github ID，确保这个ID的用户对仓库有读写的权限，
     labels:['Comments'],//评论创建的标签名
-    id: md5(location.href.trimEnd(location.pathname)),//Gitalk基于id来区分不同文章的评论区，这个id也会生成一个类似""的label，所以这样的label不可以删除，删除就会丢失评论；由于采用的是md5值，失去了可读性，但是可以确保唯一性
+    id: md5(location.pathname),//Gitalk基于id来区分不同文章的评论区，这个id也会生成一个类似""的label，所以这样的label不可以删除，删除就会丢失评论；由于采用的是md5值，失去了可读性，但是可以确保唯一性
     distractionFreeMode: false, // Facebook-like distraction free mode
     language:'zh-CN',
     perPage:10,//每次加载的数据大小，最多 100
